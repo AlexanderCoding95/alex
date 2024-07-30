@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; 
+  background: #ccc;
+  padding: 20px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; 
+}
+
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>Alexander's Tutoring Service</h2>
+<p>Welcome to Alexander's tutoring service. Feel free to reach out to Alexander directly below.</p>
+<p>Click on the links to contact me or learn more.</p>
+
+<header>
+  <h2>WELCOME</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Computer Science Support</a></li>
+      <li><a href="#">Excellent written and oral communication</a></li>
+      <li><a href="#">Contact Info</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Computer Science Support</h1>
+    <p>Alex is skilled with teaching computer science concepts. He has worked at National University's Academic Success Center. </p>
+    <p>Alex will be able to apply his knowledge of IT and Computer Science together to help assist in the best way he can.</p>
+  </article>
+</section>
+<article>
+    <h1>Excellent written and oral communication</h1>
+    <p>Alexander is a native English speaker and can speak Farsi or Persian in limited proficiency.</p>
+    <p>Alex will assist you the best way he can.</p>
+  </article>
+</section>
+<article>
+    <h1>Contact Info</h1>
+    <p>Cell Phone: (619)-753-2864</p>
+    <p>Email: alexanders50991@gmail.com / asadeghipour@nu.edu</p>
+  </article>
+</section>
+<footer>
+  <p>Thanks for stopping by!</p>
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function myFunction() {
+  document.getElementById("demo").innerHTML = "Email: alexanders50991@gmail.com.";
+}
+</script>
+</head>
+<body>
+
+<h2>Utilize JavaScript to choose between email or phone contact:</h2>
+
+<p id="demo">Phone Number: (619)-753-2864 </p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+</body>
+</html> 
+
+</footer>
+
+</body>
+</html>
